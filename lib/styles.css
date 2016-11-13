@@ -98,3 +98,23 @@
 .AvatarCropper-base canvas {
   cursor: move;
 }
+
+.closeBtn, .saveBtn {
+  display: inline-block;
+  background: rgba(0, 0, 0, .5);
+  border: 1px solid gray;
+  padding: 5px 20px;
+  border-radius: 2px;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.closeBtn:hover, .saveBtn:hover {
+  color: white;
+  border: 1px solid white;
+  border-color: rgba(255, 255, 255, .8);
+  background-color: rgba(0,0,0,0.8);
+  padding: 5px 20px;
+  border-radius: 2px;
+}
