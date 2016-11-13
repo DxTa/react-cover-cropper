@@ -21,7 +21,8 @@
     "react"
   ],
   "dependencies": {
-    "warning": "^2.1.0"
+    "warning": "^2.1.0",
+    "global": "^4.3.1"
   },
   "peerDependencies": {
     "react": ">=0.14.0",
